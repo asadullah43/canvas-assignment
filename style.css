@@ -1,30 +1,37 @@
-  @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
 * {
-    font-family: "Mulish", sans-serif;
-    font-size: 16px;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
-  }
-  .btn {
-    background-color: DodgerBlue;
-    border: none;
-    color: white;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  input[type=text] {
-    width: 25%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    text-transform: capitalize;
-  }
-  #imageInput{
-    background-color: DodgerBlue;
-    border: none;
-    color: white;
-    padding: 12px 
-  }
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+}
+canvas{
+  width: 60%;
+  height: 80vh;
+  border: 2px solid red;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+input[type="text"] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+#imageInput {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px;
+}

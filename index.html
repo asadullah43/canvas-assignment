@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,26 +14,20 @@
 </head>
 
 <body>
-    
 
-        <canvas id="myCanvas" width="400" height="300" style="border: 1px solid #000000">
-        </canvas>
-
-<br><br>
-        <input type="file" id="imageInput" accept="image/*" /><br /><br />
-        <input id="header-input" type="text" placeholder="add text for header" /><br /><br />
-        <button class="btn" id="header-btn" onclick="addHeader()">Add header text</button><br /><br />
-        <input id="canvas-text" type="text" placeholder="add text here" /><br /><br />
-        <button class="btn" id="text-btn">Add text</button><br /><br />
-        <input id="footer-input" type="text" placeholder="add text for footer" /><br /><br />
-        <button class="btn" id="footer-btn" onclick="addFooter()">Add footer text</button><br /><br />
-        <a id="download" download="canvas.png">
-            <button class="btn" type="button" onClick="download()">Download</button>
-        </a>
-    </div>
-
-    
-
+    <canvas id="myCanvas">
+    </canvas>
+    <br><br>
+    <input type="file" id="imageInput" accept="image/*" /><br /><br />
+    <input id="header-input" type="text" placeholder="add text for header" /><br /><br />
+    <button class="btn" id="header-btn" onclick="addHeader()">Add header text</button><br /><br />
+    <input id="canvas-text" type="text" placeholder="add text here" /><br /><br />
+    <button class="btn" id="text-btn">Add text</button><br /><br />
+    <input id="footer-input" type="text" placeholder="add text for footer" /><br /><br />
+    <button class="btn" id="footer-btn" onclick="addFooter()">Add footer text</button><br /><br />
+    <a id="download" download="canvas.png">
+        <button class="btn" type="button" onClick="download()">Download</button>
+    </a>
     <script src="script.js"></script>
 </body>
 
