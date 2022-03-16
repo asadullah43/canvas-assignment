@@ -6,14 +6,12 @@
   margin: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-
 }
 canvas{
   width: 60%;
   height: 80vh;
   border: 2px solid red;
 }
-
 .btn {
   background-color: DodgerBlue;
   border: none;
